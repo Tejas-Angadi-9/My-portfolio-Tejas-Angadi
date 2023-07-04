@@ -446,7 +446,9 @@ nav .fas{
 
 /* Media queries */
 @media only screen and (max-width: 580px){
-
+    body{
+        overflow-x: hidden;
+    }
     .nav-text{
         margin-left: 0.5rem;
         font-size: 2rem;
