@@ -27,7 +27,7 @@ function openTab(currentTab) {
 
 var typeData = new Typed(".role", {
     strings: [
-  "Full Stack Developer",
+  "Frontend Developer",
   "Web Developer",
   "Software Developer",
   "Coder",
