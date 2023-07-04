@@ -445,7 +445,7 @@ nav .fas{
 }
 
 /* Media queries */
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 600px){
 
     body{
         overflow-x: hidden;
@@ -488,7 +488,7 @@ nav .fas{
     }
 
     .header-text{
-        margin-left: -11rem;
+        margin-left: -16rem;
         width: 230%;
         padding: 0 14rem;
         margin-top: 80%;
