@@ -445,7 +445,8 @@ nav .fas{
 }
 
 /* Media queries */
-@media only screen and (max-width: 350px){
+@media only screen and (max-width: 580px){
+
     .nav-text{
         margin-left: 0.5rem;
         font-size: 2rem;
