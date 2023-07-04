@@ -14,7 +14,7 @@ body{
 
 #header{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     /* background-image: url(images/My\ Photo.jpg); */
     background-size: cover;
     background-position: center;
@@ -36,8 +36,8 @@ body{
 nav{
     z-index: 1;
     margin-top: -10px;
-    margin-left: -115px;
-    
+    padding: 10px;
+    margin-left: -115px; 
     width: 90%;
     background: #080808;
     position: fixed;
@@ -46,6 +46,10 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+nav a{
+    text-decoration: none;
 }
 
 nav ul li{
@@ -92,6 +96,12 @@ nav ul li a:hover::after{
     margin-right: 15px;
 }
 
+.role{
+    color: #df507d;
+    font-weight: 500;
+}
+
+
 /* About section */
 #about{
     padding-top: 120px;
@@ -120,6 +130,10 @@ nav ul li a:hover::after{
     font-size: 60px;
     font-weight: 600;
     color: #fff;
+}
+
+.sub-title p{
+    font-size: 20px;
 }
 
 .degree{
@@ -416,6 +430,7 @@ form .btn2{
     background: #262626;
     font-weight: 500;
     margin-top: 30px;
+    user-select: none;
 }
 
 .copyright i{
