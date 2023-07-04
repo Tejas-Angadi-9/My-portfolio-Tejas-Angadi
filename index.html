@@ -22,15 +22,15 @@
       <nav class="nav-bar">
           <a href="#"
             ><h1 class="nav-text"><span>T</span>ejas</h1></a>
-          <ul class="lists">
+          <ul id="sidemenu">
             <li><a href="#header" class="active">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-            <i class="fas fa-times"></i>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
           </ul>
-          <i class="fas fa-bars"></i>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
         </nav>
 
         <div class="header-text">
@@ -179,7 +179,7 @@
             </div>
           </div>
           <div class="work">
-            <img src="images/razorpay.webp" />
+            <img src="images/Razorpay_logo.svg" id="razorpay-bgc"/>
             <div class="layer">
               <h3>Razorpay Clone website</h3>
               <p>This is just the clone website design of razorpay website</p>
@@ -271,7 +271,9 @@
       <div class="copyright">
         <p>Copyright © Tejas Angadi 2023 <i class="fa-solid fa-heart"></i></p>
       </div>
-    </div>
+    </div> 
+
+
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
