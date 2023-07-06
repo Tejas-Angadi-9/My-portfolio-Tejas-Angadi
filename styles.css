@@ -449,6 +449,13 @@ nav .fas{
     font-size: 15px;
     font-weight: 300;
 }
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent,#ff004f);
+    border-radius: 6px;
+}
 
 /* Media queries */
 @media only screen and (max-width: 580px){
