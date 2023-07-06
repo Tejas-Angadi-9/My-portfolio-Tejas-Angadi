@@ -444,6 +444,12 @@ nav .fas{
     display: none;
 }
 
+.grade{
+    margin: 5px 0;
+    font-size: 15px;
+    font-weight: 300;
+}
+
 /* Media queries */
 @media only screen and (max-width: 580px){
     body{
