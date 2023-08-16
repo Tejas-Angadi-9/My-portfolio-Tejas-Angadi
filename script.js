@@ -4,11 +4,11 @@ var tabcontents = document.getElementsByClassName("tab-contents");
 // for sidemenu
 var sidemenu = document.getElementById("sidemenu");
 
-function openmenu(){
+function openmenu() {
   sidemenu.style.right = "0";
 }
 
-function closemenu(){
+function closemenu() {
   sidemenu.style.right = "-200px";
 }
 
@@ -26,14 +26,15 @@ function openTab(currentTab) {
 }
 
 var typeData = new Typed(".role", {
-    strings: [
-  "Frontend Developer",
-  "Web Developer",
-  "Software Developer",
-  "Coder",
-],
-loop: true,
-typeSpeed: 80,
-backSpeed: 80,
-backDelay: 1000,
+  strings: [
+    "Full Stack Developer",
+    "MERN Stack Developer",
+    "Web Developer",
+    "Software Developer",
+    "Coder",
+  ],
+  loop: true,
+  typeSpeed: 80,
+  backSpeed: 80,
+  backDelay: 1000,
 });
